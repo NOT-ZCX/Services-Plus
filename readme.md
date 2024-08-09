@@ -1,6 +1,4 @@
 # Services+
-```html
-<!DOCTYPE html>
 <html>
 <head>
   <title>Services+</title>
