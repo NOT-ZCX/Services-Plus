@@ -1,4 +1,3 @@
-# Services+
 <html>
 <head>
   <title>Services+</title>
