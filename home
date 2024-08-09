@@ -1,4 +1,4 @@
-# services-plus.github.io
+# services-plus.online
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +9,7 @@
     <title>Services+</title>
     <style>
         body {
-            background-image: url('galaxy-background.jpg');
+            background-image: url('https://www.google.com/search?client=ms-android-tracfone-us-rvc3&sca_esv=ffb913ee160c5239&sca_upv=1&sxsrf=ADLYWILSIVjBzrGEkDYbEBommteedmT9Ww:1723178215135&q=galaxy&udm=2&fbs=AEQNm0BRbrA8b3J1Cq1UM3gcLH4C40-x_r_kNH4NpSRTnfY73laONNATXlwez8HxrhREJFYk5muzmP9Xzok2ORjrlLOdpBY1BSNCAmaJ-jf5LYN40vMa-knoVRdmEbgo-jdipMPLtQmmq54LGkXN6qjtNusgAmyJ7GNykyNTOsj5VI2Be02Ghgqwbg1Pb5a4rb4CDhPLLD8panmNxziBvKq5eG345tpwYg&sa=X&ved=2ahUKEwijhpeLi-eHAxWKFmIAHZs2Ke0QtKgLegQIEBAB');
             background-size: cover;
             color: black;
             font-family: Arial, sans-serif;
@@ -58,19 +58,19 @@
     </header>
 
     <div class="buttons">
-        <a href="https://www.example.com"><button>Edit Button 1</button></a>
-        <a href="https://www.example.com"><button>Edit Button 2</button></a>
-        <a href="https://www.example.com"><button>Edit Button 3</button></a>
-        <a href="https://www.example.com"><button>Edit Button 4</button></a>
-        <a href="https://www.example.com"><button>Edit Button 5</button></a>
+        <a href="http://invite.services-plus.online/"><button>Invite Services+</button></a>
+        <a href="http://support.services-plus.online/"><button>Support Server</button></a>
+        <a href="http://help.services-plus.online/"><button>Commands/Features</button></a>
+        <a href="http://tos.services-plus.online/"><button>Terms of Service</button></a>
+        <a href="http://privacy.services-plus.online/"><button>Privacy Policy</button></a>
     </div>
 
     <div class="description">
-        <p>Edit this description category text.</p>
+        <p>Services+ is a multiple purposed discord bot, designed, and owned by a single user.</p>
     </div>
 
     <footer>
-        <p>Edit this footer text.</p>
+        <p>Services+ © 2024.</p>
     </footer>
 </body>
 
