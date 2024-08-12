@@ -1,6 +1,6 @@
-<!DOCTYPE html>
 <html>
 <head>
+  <title>Services+</title>
   <style>
     body {
       background-color: gray;
@@ -32,7 +32,6 @@
   </style>
 </head>
 <body>
-  <h1>Services+</h1>
   <a href="http://features.services-plus.online/"><button>Features</button></a>
   <a href="http://tos.services-plus.online/"><button>Terms of Service</button></a>
   <a href="http://privacy.services-plus.online/"><button>Privacy Policy</button></a>
