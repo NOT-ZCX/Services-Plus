@@ -32,7 +32,7 @@
   </style>
 </head>
 <body>
-  <a href="http://features.services-plus.online/"><button>Features</button></a>
+  <a href="http://wiki.services-plus.online/"><button>Commands/Wiki</button></a>
   <a href="http://tos.services-plus.online/"><button>Terms of Service</button></a>
   <a href="http://privacy.services-plus.online/"><button>Privacy Policy</button></a>
   <a href="http://invite.services-plus.online/"><button>Invite to Server</button></a>
