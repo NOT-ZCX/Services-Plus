@@ -3,22 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services+</title>
+    <title>Services+ | Home</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .description {
+            text-align: center;
+            margin-bottom: 20px;
+            flex: 1; /* Allow description to take space */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center content vertically */
+        }
+        .back-button {
+            margin-top: auto; /* Push the button to the bottom */
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: block; /* Ensure it behaves like a block element */
+            text-align: center; /* Center text in button */
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+      
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Services+</h1>
-        <div class="button-container">
-            <a href="https://discord.gg/services-plus" class="button">Support Server</a>
+    <div class="description">
+        <h1>Services+</h1>
+        <div class="container">
+    <div class="button-container">
+    <a href="https://discord.gg/services-plus" class="button">Support Server</a>
             <a href="https://wiki.services-plus.online/" class="button">Commands</a>
             <a href="https://services-plus.online/invite" class="button">Invite Bot</a>
             <a href="https://premium.services-plus.online/" class="button">Services+ Premium</a>
             <a href="https://services-plus.online/tos" class="button">TOS</a>
             <a href="https://services-plus.online/privacy" class="button">Privacy Policy</a>
         </div>
-    </div>
-    
-    <script src="script.js"></script>
-</body>
+    <div class="last-button-container">
+    </body>
 </html>
