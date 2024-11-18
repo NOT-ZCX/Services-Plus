@@ -22,3 +22,23 @@ body {
         background-position: 0% 50%;
     }
 }
+
+/* Button styles */
+button {
+    background-color: #ffffff; /* Button background color */
+    color: #000000; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+button:hover {
+    background-color: #f2f2f2; /* Background color on hover */
+}
+
+button:active {
+    background-color: #e0e0e0; /* Background color when button is pressed */
+}
