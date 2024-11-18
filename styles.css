@@ -8,7 +8,8 @@ body {
     margin: 0;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Ensure flex direction is column */
+    justify-content: center; /* Center vertically */
     align-items: center;
     font-family: Arial, sans-serif;
     color: white;
@@ -30,13 +31,18 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column; /* Ensure container's direction is column */
+    justify-content: space-between; /* Space between items */
+    height: 100%; /* Full height of the body */
     text-align: center;
 }
 
 .button-container {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    justify-content: center; /* Center buttons within the container */
+    gap: 10px; /* Spacing between buttons */
 }
 
 .button {
@@ -46,8 +52,16 @@ body {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    flex: 0 0 calc(50% - 10px); /* Each button takes half the width minus the gap */
+    max-width: calc(50% - 10px); /* Ensure buttons don't exceed the desired width */
+    margin-bottom: 10px; /* Space below for rows */
 }
 
 .button:hover {
     background-color: #2980b9;
+}
+
+/* Add this new class for positioning the last button */
+.last-button-container {
+    margin-top: auto; /* Push the last button down */
 }
