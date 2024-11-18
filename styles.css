@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     height: 100vh;
@@ -23,7 +29,10 @@ body {
     }
 }
 
-/* Button styles */
+.container {
+    text-align: center;
+}
+
 .button-container {
     display: flex;
     flex-direction: column;
